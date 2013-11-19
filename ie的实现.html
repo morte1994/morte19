@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<head>
+<title>悲剧的高数</title>
+<script>
+if(!document.getElementsByClassName)
+{
+    document.getElementsByClassName = function(className, a){
+        var bs = (a|| document).getElementsByTagName('*');
+        var as = new Array();
+
+        for (var i=0; i<bs.length; i++){
+            var b = bs[i];
+            var classNames = child.className.split(' ');
+            
+        for (var j=0; j<classNames.length; j++){
+                if (classNames[j] == className){ 
+                    as.push(child);
+                    break;
+                }
+            }
+        } 
+        return as;
+    };
+}
+</script>
+</html>
